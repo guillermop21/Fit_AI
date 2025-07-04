@@ -1,0 +1,34 @@
+# Ignorar carpetas de dependencias
+node_modules/
+
+# Ignorar archivos de compilación
+dist/
+build/
+
+# Ignorar archivos de entorno
+.env
+.env.local
+
+# Ignorar archivos específicos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de bases de datos locales
+*.db
+*.sqlite
+
+# Ignorar archivos de Railway
+.railway/
+
+# Ignorar archivos de Vercel
+.vercel/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de pnpm
+pnpm-lock.yaml
